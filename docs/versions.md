@@ -2,6 +2,10 @@
 
 [Release notes](https://relnotes.k8s.io/)
 
+## v1.34
+
+* [DRA (Dynamic Resource Allocation) Consumable Capacity](https://kubernetes.io/blog/2025/09/18/kubernetes-v1-34-dra-consumable-capacity/)
+
 ## v1.32 (Penelope)
 
 * [Announcement](https://kubernetes.io/blog/2024/12/11/kubernetes-v1-32-release/) - December 11, 2024

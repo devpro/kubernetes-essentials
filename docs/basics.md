@@ -69,7 +69,7 @@ Read more:
 
   Image taken from the original documentation about the [Cloud Controller Manager](https://kubernetes.io/docs/concepts/architecture/cloud-controller/)
   
-  <img src="https://d33wubrfki0l68.cloudfront.net/7016517375d10c702489167e704dcb99e570df85/7bb53/images/docs/components-of-kubernetes.png">
+  <img alt="Components of Kubernetes" src="https://d33wubrfki0l68.cloudfront.net/7016517375d10c702489167e704dcb99e570df85/7bb53/images/docs/components-of-kubernetes.png">
 </details>
 
 - **Head node(s)** (only Linux, previously named master node(s)): main manager which have several agents, all head nodes constitue the **Control Plane**
@@ -101,7 +101,7 @@ Read more:
 
   Image taken from Kubernetes blog post [Introducing Container Runtime Interface (CRI) in Kubernetes](https://kubernetes.io/blog/2016/12/container-runtime-interface-cri-in-kubernetes/)
   
-  <img src="https://d1sz9tkli0lfjq.cloudfront.net/items/0I3X2U0S0W3r1D1z2O0Q/Image%202016-12-19%20at%2017.13.16.png">
+  <img alt="Overview of CRI" src="https://d1sz9tkli0lfjq.cloudfront.net/items/0I3X2U0S0W3r1D1z2O0Q/Image%202016-12-19%20at%2017.13.16.png">
 </details>
 
 ### Pods
@@ -178,7 +178,7 @@ _Note_: [rktlet](https://github.com/kubernetes-retired/rktlet) and [rkt](https:/
 
   Image taken from Docker blog post [What is containerd?](https://www.docker.com/blog/what-is-containerd-runtime/)
   
-  <img src="https://i0.wp.com/www.docker.com/blog/wp-content/uploads/974cd631-b57e-470e-a944-78530aaa1a23-1.jpg?w=906&ssl=1">
+  <img alt="Container layers" src="https://i0.wp.com/www.docker.com/blog/wp-content/uploads/974cd631-b57e-470e-a944-78530aaa1a23-1.jpg?w=906&ssl=1">
 </details>
 
 #### Containerized image

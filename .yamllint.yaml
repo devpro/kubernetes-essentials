@@ -1,5 +1,9 @@
 # ref. https://yamllint.readthedocs.io/en/stable/configuration.html
 extends: default
+# the course solutions are kept as the Linux Foundation publishes them
+ignore: |
+  resources/LFD259/
+  resources/LFS258/
 rules:
   document-start: disable
   line-length:

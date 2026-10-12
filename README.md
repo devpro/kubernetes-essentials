@@ -62,29 +62,29 @@ It has been initiated in 2020 to prepare for CKA & CKAD exams, updated in 2023 t
 <details>
   <summary>CNCF webinars</summary>
 
-  * [K8s audit logging deep dive](https://www.cncf.io/webinars/k8s-audit-logging-deep-dive/) - October 22, 2020
-  * [Deploying Kubernetes to bare metal using cluster API](https://www.cncf.io/webinars/deploying-kubernetes-to-bare-metal-using-cluster-api/) - October 21, 2020
-  * [The abc’s of Kubernetes security](https://www.cncf.io/webinars/the-abcs-of-kubernetes-security/) - October 21, 2020
-  * [Building a Cloud-Native Technology Stack That Supports Full Cycle Development ](https://www.cncf.io/webinars/building-a-cloud-native-technology-stack-that-supports-full-cycle-development/) - September 9, 2020
-  * [Arm Developer Experience Spanning Cloud, 5G and IoT](https://www.cncf.io/webinars/arm-developer-experience-spanning-cloud-5g-and-iot/) - September 8, 2020
-  * [Running the next generation of cloud-native applications using Open Application Model (OAM)](https://www.cncf.io/webinars/running-the-next-generation-of-cloud-native-applications-using-open-application-model-oam/) - September 3, 2020
-  * [Let’s untangle The Service Mesh](https://www.cncf.io/webinars/lets-untangle-the-service-mesh/) - September 1, 2020
-  * [Local development in the age of Kubernetes](https://www.cncf.io/webinars/local-development-in-the-age-of-kubernetes/) - August 26, 2020
-  * [Modern Software Development Pipeline: A Security Reference Architecture](https://www.cncf.io/webinars/modern-software-development-pipeline-a-security-reference-architecture/) - August 25, 2020
-  * [Highly Scalable SaaS Apps on Kubernetes: Real Life Case Studies](https://www.cncf.io/webinars/highly-scalable-saas-apps-on-kubernetes-real-life-case-studies/) - September 9, 2020
-  * [Comparing eBPF and Istio/Envoy for Monitoring Microservice Interactions](https://www.cncf.io/webinars/comparing-ebpf-and-istio-envoy-for-monitoring-microservice-interactions/) - August 4, 2020
-  * [Event-Driven Cloud Native Workflows Use Cases and Patterns](https://www.cncf.io/webinars/event-driven-cloud-native-workflows-use-cases-and-patterns/) - July 29, 2020
-  * [CNCF Member Webinar: Kubernetes Policies 101](https://www.cncf.io/webinars/kubernetes-policies-101/) - July 28, 2020
-  * [The top 7 most useful Kubernetes APIs for comprehensive cloud native observability](https://www.cncf.io/webinars/the-top-7-most-useful-kubernetes-apis-for-comprehensive-cloud-native-observability/) - July 9, 2020
-  * [Building Production-ready Services with Kubernetes and Serverless Architectures](https://www.cncf.io/webinars/building-production-ready-services-with-kubernetes-and-serverless-architectures/) - July 8, 2020
-  * [Optimize your Kubernetes Clusters on Azure with Built-in Best Practices](https://www.cncf.io/webinars/optimize-your-kubernetes-clusters-on-azure-with-built-in-best-practices/) - July 7, 2020
-  * [Best Practices for Running and Implementing Kubernetes](https://www.cncf.io/webinars/best-practices-for-running-and-implementing-kubernetes/) - June 30, 2020
-  * [How Alibaba Extends K8s scheduler to support AI and big data workloads](https://www.cncf.io/webinars/how-alibaba-extends-k8s-scheduler-to-support-ai-and-big-data-workloads/) - July 15, 2020
-  * [Kubernetes for storage, an overview](https://www.cncf.io/webinars/kubernetes-for-storage-an-overview/) - July 16, 2020
-  * [Implementing Canary Releases on Kubernetes w/ Spinnaker, Istio, and Prometheus](https://www.cncf.io/webinars/implementing-canary-releases-on-kubernetes-w-spinnaker-istio-and-prometheus/) - July 22, 2020
-  * [Kubernetes Secrets Management: Build Secure Apps Faster Without Secrets](https://www.cncf.io/webinars/kubernetes-secrets-management-build-secure-apps-faster-without-secrets/) - July 22, 2020
-  * [Building application management platform with Open Application Model](https://www.cncf.io/webinars/cncf-ambassador-webinar-building-application-management-platform-with-open-application-model/) - July 22, 2020
-  * [Observability of multi-party computation with OpenTelemetry](https://www.cncf.io/webinars/observability-of-multi-party-computation-with-opentelemetry/) - July 23, 2020
+* [K8s audit logging deep dive](https://www.cncf.io/webinars/k8s-audit-logging-deep-dive/) - October 22, 2020
+* [Deploying Kubernetes to bare metal using cluster API](https://www.cncf.io/webinars/deploying-kubernetes-to-bare-metal-using-cluster-api/) - October 21, 2020
+* [The abc’s of Kubernetes security](https://www.cncf.io/webinars/the-abcs-of-kubernetes-security/) - October 21, 2020
+* [Building a Cloud-Native Technology Stack That Supports Full Cycle Development](https://www.cncf.io/webinars/building-a-cloud-native-technology-stack-that-supports-full-cycle-development/) - September 9, 2020
+* [Arm Developer Experience Spanning Cloud, 5G and IoT](https://www.cncf.io/webinars/arm-developer-experience-spanning-cloud-5g-and-iot/) - September 8, 2020
+* [Running the next generation of cloud-native applications using Open Application Model (OAM)](https://www.cncf.io/webinars/running-the-next-generation-of-cloud-native-applications-using-open-application-model-oam/) - September 3, 2020
+* [Let’s untangle The Service Mesh](https://www.cncf.io/webinars/lets-untangle-the-service-mesh/) - September 1, 2020
+* [Local development in the age of Kubernetes](https://www.cncf.io/webinars/local-development-in-the-age-of-kubernetes/) - August 26, 2020
+* [Modern Software Development Pipeline: A Security Reference Architecture](https://www.cncf.io/webinars/modern-software-development-pipeline-a-security-reference-architecture/) - August 25, 2020
+* [Highly Scalable SaaS Apps on Kubernetes: Real Life Case Studies](https://www.cncf.io/webinars/highly-scalable-saas-apps-on-kubernetes-real-life-case-studies/) - September 9, 2020
+* [Comparing eBPF and Istio/Envoy for Monitoring Microservice Interactions](https://www.cncf.io/webinars/comparing-ebpf-and-istio-envoy-for-monitoring-microservice-interactions/) - August 4, 2020
+* [Event-Driven Cloud Native Workflows Use Cases and Patterns](https://www.cncf.io/webinars/event-driven-cloud-native-workflows-use-cases-and-patterns/) - July 29, 2020
+* [CNCF Member Webinar: Kubernetes Policies 101](https://www.cncf.io/webinars/kubernetes-policies-101/) - July 28, 2020
+* [The top 7 most useful Kubernetes APIs for comprehensive cloud native observability](https://www.cncf.io/webinars/the-top-7-most-useful-kubernetes-apis-for-comprehensive-cloud-native-observability/) - July 9, 2020
+* [Building Production-ready Services with Kubernetes and Serverless Architectures](https://www.cncf.io/webinars/building-production-ready-services-with-kubernetes-and-serverless-architectures/) - July 8, 2020
+* [Optimize your Kubernetes Clusters on Azure with Built-in Best Practices](https://www.cncf.io/webinars/optimize-your-kubernetes-clusters-on-azure-with-built-in-best-practices/) - July 7, 2020
+* [Best Practices for Running and Implementing Kubernetes](https://www.cncf.io/webinars/best-practices-for-running-and-implementing-kubernetes/) - June 30, 2020
+* [How Alibaba Extends K8s scheduler to support AI and big data workloads](https://www.cncf.io/webinars/how-alibaba-extends-k8s-scheduler-to-support-ai-and-big-data-workloads/) - July 15, 2020
+* [Kubernetes for storage, an overview](https://www.cncf.io/webinars/kubernetes-for-storage-an-overview/) - July 16, 2020
+* [Implementing Canary Releases on Kubernetes w/ Spinnaker, Istio, and Prometheus](https://www.cncf.io/webinars/implementing-canary-releases-on-kubernetes-w-spinnaker-istio-and-prometheus/) - July 22, 2020
+* [Kubernetes Secrets Management: Build Secure Apps Faster Without Secrets](https://www.cncf.io/webinars/kubernetes-secrets-management-build-secure-apps-faster-without-secrets/) - July 22, 2020
+* [Building application management platform with Open Application Model](https://www.cncf.io/webinars/cncf-ambassador-webinar-building-application-management-platform-with-open-application-model/) - July 22, 2020
+* [Observability of multi-party computation with OpenTelemetry](https://www.cncf.io/webinars/observability-of-multi-party-computation-with-opentelemetry/) - July 23, 2020
   
 </details>
 

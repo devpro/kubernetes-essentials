@@ -4,12 +4,12 @@
 
 ## Graphical cards
 
-Name | Specifications | Comments
------|----------------|-----------
-T4   |                |
-T400 |                | Affordable
-V100 |                |
-A100 |                |
+| Name | Specifications | Comments   |
+| ---- | -------------- | ---------- |
+| T4   |                |            |
+| T400 |                | Affordable |
+| V100 |                |            |
+| A100 |                |            |
 
 ## GPUs on Kubernetes
 

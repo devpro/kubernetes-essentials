@@ -37,8 +37,6 @@ Read more:
 
 Other solutions to manage containerized workload:
 
-
-
 ### Main features
 
 Core features:
@@ -68,7 +66,7 @@ Read more:
 
 <details>
   <summary>High-level view</summary>
- 
+
   Image taken from the original documentation about the [Cloud Controller Manager](https://kubernetes.io/docs/concepts/architecture/cloud-controller/)
   
   <img src="https://d33wubrfki0l68.cloudfront.net/7016517375d10c702489167e704dcb99e570df85/7bb53/images/docs/components-of-kubernetes.png">
@@ -79,18 +77,18 @@ Read more:
     <details>
       <summary>Additional information</summary>
   
-      - Starting as an alpha feature in v1.16 is the ability to separate user-initiated traffic from server-initiated traffic.
+    - Starting as an alpha feature in v1.16 is the ability to separate user-initiated traffic from server-initiated traffic.
     </details>
-    
+
   - `kube-scheduler`: determines which node will host a Pod (through an algorithm)
   - `etcd`: database/storage system (b+tree key-value store) of the cluster state, container settings, networking configurations
     <details>
       <summary>Additional information</summary>
   
-      - Rather than finding and changing an entry, values are always appended to the end. Previous copies of the data are then marked for future removal by a compaction process. It is expected to receive error 409 errors if the value has been updated between while processing a request.
-      - There is a master database along with possible followers. While very fast and potentially durable, there have been some hiccups with new tools, such as kubeadm, and features like whole cluster upgrades.
+    - Rather than finding and changing an entry, values are always appended to the end. Previous copies of the data are then marked for future removal by a compaction process. It is expected to receive error 409 errors if the value has been updated between while processing a request.
+    - There is a master database along with possible followers. While very fast and potentially durable, there have been some hiccups with new tools, such as kubeadm, and features like whole cluster upgrades.
     </details>
-    
+
   - [`kube-controller-manager`](https://kubernetes.io/docs/reference/command-line-tools-reference/kube-controller-manager/): core control loop daemon which interacts with the `kube-apiserver` that regulates the state of the system, responsible for running resource controllers such as Deployments
   - [`cloud-controller-manager`](https://kubernetes.io/docs/tasks/administer-cluster/running-cloud-controller/): interacts with the cloud provider (if cloud-based clusters), managing resources such as load balancers and disk volumes, allows cloud vendors to evolve independently from the core Kubernetes code
 - **Worder nodes** (Linux, and Windows since 1.14 release)
@@ -117,9 +115,9 @@ Read more:
 <details>
   <summary>Readings</summary>
 
-  - [Deconstructing Kubernetes Networking](https://eevans.co/blog/deconstructing-kubernetes-networking/)
-  - [Understanding Kubernetes Interfaces: CRI, CNI, and CSI ](https://dzone.com/articles/understanding-kubernetes-interfaces-cri-cni-amp-cs)
-  - [Kubernetes Network Plugins](https://kubedex.com/kubernetes-network-plugins/)
+- [Deconstructing Kubernetes Networking](https://eevans.co/blog/deconstructing-kubernetes-networking/)
+- [Understanding Kubernetes Interfaces: CRI, CNI, and CSI](https://dzone.com/articles/understanding-kubernetes-interfaces-cri-cni-amp-cs)
+- [Kubernetes Network Plugins](https://kubedex.com/kubernetes-network-plugins/)
 
 </details>
 
@@ -177,7 +175,7 @@ _Note_: [rktlet](https://github.com/kubernetes-retired/rktlet) and [rkt](https:/
 
 <details>
   <summary>Container layers</summary>
- 
+
   Image taken from Docker blog post [What is containerd?](https://www.docker.com/blog/what-is-containerd-runtime/)
   
   <img src="https://i0.wp.com/www.docker.com/blog/wp-content/uploads/974cd631-b57e-470e-a944-78530aaa1a23-1.jpg?w=906&ssl=1">

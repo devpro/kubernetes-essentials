@@ -43,7 +43,7 @@ Command | Action
 `minikube service hello-minikube` | Maunch a web browser on a service
 `minikube service xxx --url` | Display url for a given service (xxx)
 `minikube config set memory 16384` | Update default memory limit (2048 by default)
-`minikube addons list` | Browse the catalog of easily installed Kubernetes services 
+`minikube addons list` | Browse the catalog of easily installed Kubernetes services
 `minikube tunnel` | Start a tunnel to create a routable IP for a "balanced" deployment
 `minikube start -p aged --kubernetes-version=v1.16.1` | Create another cluster running an older Kubernetes release
 `minikube ip` | Display Kubernetes IP

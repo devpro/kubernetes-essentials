@@ -87,7 +87,7 @@
 
 4. ".status.conditions" is standardised across objects (stable)
 
-5. Standardise on "http://node-role.kubernetes.io" label (beta)
+5. Standardise on `node-role.kubernetes.io` label (beta)
 
 6. Removed the beta APIs from the conformance tests (beta)
 

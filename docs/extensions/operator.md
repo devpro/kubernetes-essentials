@@ -20,7 +20,7 @@ Readings:
 
 ## Testing
 
-- [Testing Kubernetes Operators using EnvTest](https://www.infracloud.io/blogs/testing-kubernetes-operator-envtest/) - August 24, 2022
+* [Testing Kubernetes Operators using EnvTest](https://www.infracloud.io/blogs/testing-kubernetes-operator-envtest/) - August 24, 2022
 
 ## Practice
 

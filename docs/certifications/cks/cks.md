@@ -1,4 +1,4 @@
-#  CKS (Certified Kubernetes Security Specialist)
+# CKS (Certified Kubernetes Security Specialist)
 
 You'll find here everything to know for the CKS exam. It has been written in December 2023, with the intention to be straight to the point.
 
@@ -25,13 +25,13 @@ You'll find here everything to know for the CKS exam. It has been written in Dec
 
 ### Allowed websites
 
-Component      | Links
----------------|-----------------------------------------------------------------------------------------------------------------
-**Kubernetes** | [kubernetes.io/docs](https://kubernetes.io/docs/), [kubernetes.io/blog](https://kubernetes.io/blog/)
-**etcd**       | [etcd.io/docs](https://etcd.io/docs/)
-**AppArmor**   | [gitlab.com/apparmor/apparmor/-/wikis/Documentation](https://gitlab.com/apparmor/apparmor/-/wikis/Documentation)
-**Falco**      | [falco.org/docs](https://falco.org/docs/)
-**Trivy**      | [aquasecurity.github.io/trivy](https://aquasecurity.github.io/trivy/)
+| Component      | Links                                                                                                            |
+| -------------- | ---------------------------------------------------------------------------------------------------------------- |
+| **Kubernetes** | [kubernetes.io/docs](https://kubernetes.io/docs/), [kubernetes.io/blog](https://kubernetes.io/blog/)             |
+| **etcd**       | [etcd.io/docs](https://etcd.io/docs/)                                                                            |
+| **AppArmor**   | [gitlab.com/apparmor/apparmor/-/wikis/Documentation](https://gitlab.com/apparmor/apparmor/-/wikis/Documentation) |
+| **Falco**      | [falco.org/docs](https://falco.org/docs/)                                                                        |
+| **Trivy**      | [aquasecurity.github.io/trivy](https://aquasecurity.github.io/trivy/)                                            |
 
 📌 Source: [Resources Allowed: All LF Certification Programs](https://docs.linuxfoundation.org/tc-docs/certification/certification-resources-allowed#certified-kubernetes-security-specialist-cks)
 
@@ -79,18 +79,18 @@ You can try with this [Killercoda scenario](https://killercoda.com/kimwuestkamp/
 
 ## Tools
 
-Name                                       | Paragraph                                                                                 | Kubernetes definition
--------------------------------------------|-------------------------------------------------------------------------------------------|---------------------------------------------------------------
-[AppArmor](tools/apparmor.md)              | [3.4 Kernel hardening](3-system-hardening.md#kernel-hardening)                            | annotations.`container.apparmor.security.beta.kubernetes.io`
-[etcd](tools/etcd.md)                      |                                                                                           |
-[Falco](tools/falco.md)                    | [6.1 Behavioral analytics](6-monitoring-logging-runtime-security.md#behavioral-analytics) | 
-[gVisor](tools/gvisor.md)                  | [4.3 Sandboxes](4-minimize-microservice-vulnerabilities.md#sandboxes)                     | spec.`runtimeClassName`
-[Kata Containers](tools/katacontainers.md) | [4.3 Sandboxes](4-minimize-microservice-vulnerabilities.md#sandboxes)                     | spec.`runtimeClassName`
-[kube-bench](tools/kube-bench.md)          | [1.2 CIS benchmark](1-cluster-setup.md#cis-benchmark)                                     |
-[OPA Gatekeeper](tools/opa-gatekeeper.md)  | [4.1 Security domains](4-minimize-microservice-vulnerabilities.md#security-domains)       | `ConstraintTemplate`
-[seccomp](tools/seccomp.md)                | [3.4 Kernel hardening](3-system-hardening.md#kernel-hardening)                            | securityContext.`seccompProfile`
-[SELinux](tools/selinux.md)                |                                                                                           | securityContext.`seLinuxOptions`
-[Trivy](tools/trivy.md)                    | [5. Supply chain security](5-supply-chain-security.md#workload-static-analysis)           |
+| Name                                       | Paragraph                                                                                 | Kubernetes definition                                        |
+| ------------------------------------------ | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| [AppArmor](tools/apparmor.md)              | [3.4 Kernel hardening](3-system-hardening.md#kernel-hardening)                            | annotations.`container.apparmor.security.beta.kubernetes.io` |
+| [etcd](tools/etcd.md)                      |                                                                                           |                                                              |
+| [Falco](tools/falco.md)                    | [6.1 Behavioral analytics](6-monitoring-logging-runtime-security.md#behavioral-analytics) |                                                              |
+| [gVisor](tools/gvisor.md)                  | [4.3 Sandboxes](4-minimize-microservice-vulnerabilities.md#sandboxes)                     | spec.`runtimeClassName`                                      |
+| [Kata Containers](tools/katacontainers.md) | [4.3 Sandboxes](4-minimize-microservice-vulnerabilities.md#sandboxes)                     | spec.`runtimeClassName`                                      |
+| [kube-bench](tools/kube-bench.md)          | [1.2 CIS benchmark](1-cluster-setup.md#cis-benchmark)                                     |                                                              |
+| [OPA Gatekeeper](tools/opa-gatekeeper.md)  | [4.1 Security domains](4-minimize-microservice-vulnerabilities.md#security-domains)       | `ConstraintTemplate`                                         |
+| [seccomp](tools/seccomp.md)                | [3.4 Kernel hardening](3-system-hardening.md#kernel-hardening)                            | securityContext.`seccompProfile`                             |
+| [SELinux](tools/selinux.md)                |                                                                                           | securityContext.`seLinuxOptions`                             |
+| [Trivy](tools/trivy.md)                    | [5. Supply chain security](5-supply-chain-security.md#workload-static-analysis)           |                                                              |
 
 ## Free lab platforms
 

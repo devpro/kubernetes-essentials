@@ -6,7 +6,7 @@
 
 🌐 [code](https://github.com/kata-containers/kata-containers), [docs](https://github.com/kata-containers/kata-containers/tree/main/docs), [openinfra.dev](https://openinfra.dev/)
 
-![](https://katacontainers.io/static/f5b9f5be4a53897550fe1892415f2c82/663f4/katacontainers_kubernetes_integration_diagram.jpg)
+![katacontainers kubernetes integration diagram](https://katacontainers.io/static/f5b9f5be4a53897550fe1892415f2c82/663f4/katacontainers_kubernetes_integration_diagram.jpg)
 
 ## Getting started
 

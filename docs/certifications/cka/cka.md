@@ -25,6 +25,7 @@
   # Stand up a busybox:1.28 pod and do nslookup for both the Service and the Container
   kubectl run -i --tty busybox --image=busybox -- sh
   ```
+
 </details>
 
 - Create Kubernetes objects from the command line (no YAML)
@@ -35,6 +36,7 @@
   ```bash
   kubectl create rolebinding john-admin-binding --clusterrole=admin --user=john --namespace=acme
   ```
+
 </details>
 
 - Know ways to interact with the container in the pod (see [Get a Shell to a Running Container](https://kubernetes.io/docs/tasks/debug-application-cluster/get-shell-running-container/) and [kubectl exec](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#exec))
@@ -62,7 +64,7 @@ Be able to:
   TODO
 </details>
 
-2. Print out a list of all nodes that are Ready but not tainted with NoSchedule
+1. Print out a list of all nodes that are Ready but not tainted with NoSchedule
 
 <details>
   <summary>Answer 2</summary>

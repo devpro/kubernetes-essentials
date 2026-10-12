@@ -8,24 +8,25 @@ Reference: [cnab.io](https://cnab.io/)
 
 ## Cloud Native Buildpacks
 
-> Cloud Native Buildpacks transform your application source code to images that can run on any cloud. 
+> Cloud Native Buildpacks transform your application source code to images that can run on any cloud.
 
 Reference: [buildpacks.io](https://buildpacks.io/)
 
 ## Container Network Interface (CNI)
 
-> CNI (Container Network Interface), a Cloud Native Computing Foundation project, consists of a specification and libraries for writing plugins to configure network interfaces in Linux containers, along with a number of supported plugins. CNI concerns itself only with network connectivity of containers and removing allocated resources when the container is deleted.
+> CNI (Container Network Interface), a Cloud Native Computing Foundation project, consists of a specification and libraries for writing plugins to configure network interfaces in Linux containers, along with a number of supported plugins.
+> CNI concerns itself only with network connectivity of containers and removing allocated resources when the container is deleted.
 
 Reference: [containernetworking/cni](https://github.com/containernetworking/cni)
 
 <details>
   <summary>Read more</summary>
- 
-  - [containernetworking/plugins](https://github.com/containernetworking/plugins)
-  - `kubeadmin` uses CNI as the default network interface mechanism since v1.6.0.
-  - [CNCF Blog - CNCF Hosts Container Networking Interface (CNI)](https://www.cncf.io/blog/2017/05/23/cncf-hosts-container-networking-interface-cni/) - May-23 '17
-  - [SlideShare - Introduction to the Container Network Interface (CNI)](https://www.slideshare.net/weaveworks/introduction-to-the-container-network-interface-cni) - Sep-01 '17
-  - Sample of configuration file:
+
+- [containernetworking/plugins](https://github.com/containernetworking/plugins)
+- `kubeadmin` uses CNI as the default network interface mechanism since v1.6.0.
+- [CNCF Blog - CNCF Hosts Container Networking Interface (CNI)](https://www.cncf.io/blog/2017/05/23/cncf-hosts-container-networking-interface-cni/) - May-23 '17
+- [SlideShare - Introduction to the Container Network Interface (CNI)](https://www.slideshare.net/weaveworks/introduction-to-the-container-network-interface-cni) - Sep-01 '17
+- Sample of configuration file:
   
   ```json
   {

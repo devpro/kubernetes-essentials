@@ -8,7 +8,7 @@
 
 🌐 [docs](https://gvisor.dev/docs/), [code](https://github.com/google/gvisor)
 
-![](https://miro.medium.com/v2/resize:fit:640/format:webp/1*MMeK2KHQM3bKGz-zKdf1cw.png)
+![gVisor architecture](https://miro.medium.com/v2/resize:fit:640/format:webp/1*MMeK2KHQM3bKGz-zKdf1cw.png)
 
 ## Gettings started
 

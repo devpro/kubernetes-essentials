@@ -2,7 +2,7 @@
 
 ## OS footprint
 
-> Minimize host OS footprint (reduce attack surface) 
+> Minimize host OS footprint (reduce attack surface)
 
 ✨ [Preventing containers from loading unwanted kernel modules](https://kubernetes.io/docs/tasks/administer-cluster/securing-a-cluster/#preventing-containers-from-loading-unwanted-kernel-modules)
 

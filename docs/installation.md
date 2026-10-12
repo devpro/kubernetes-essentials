@@ -63,14 +63,14 @@ Reference:
 - [Documentation > Concepts > Cluster Administration > Installing Addons](https://kubernetes.io/docs/concepts/cluster-administration/addons/)
 - [Virtual Extensible LAN (VXLAN)](https://en.wikipedia.org/wiki/Virtual_Extensible_LAN)
 
-Name                                                                      | Network Model | Allow vxlan | Allow network policies | Can encrypt all TCP and UDP traffic
---------------------------------------------------------------------------|---------------|-------------|------------------------|------------------------------------
-[`Calico`](https://www.projectcalico.org/)                                | Level 3       | Yes         | Yes                    | Yes
-[`Weave Net`](https://www.weave.works/oss/net/)                           | Level 2       | Yes         |                        | Yes
-[`Flannel`](https://github.com/coreos/flannel)                            | Level 2       | Yes         |                        |
-[`Kube Router`](https://www.kube-router.io/)                              | Level 3       |             | Yes                    |
-[`Romana`](https://romana.io/) ([code](https://github.com/romana/romana)) | Level 3       |             | Yes                    |
-[`Kopeio`](https://github.com/kopeio/networking)                          | Level 2       | Yes         |                        | Yes
+| Name                                                                      | Network Model | Allow vxlan | Allow network policies | Can encrypt all TCP and UDP traffic |
+| ------------------------------------------------------------------------- | ------------- | ----------- | ---------------------- | ----------------------------------- |
+| [`Calico`](https://www.projectcalico.org/)                                | Level 3       | Yes         | Yes                    | Yes                                 |
+| [`Weave Net`](https://www.weave.works/oss/net/)                           | Level 2       | Yes         |                        | Yes                                 |
+| [`Flannel`](https://github.com/coreos/flannel)                            | Level 2       | Yes         |                        |                                     |
+| [`Kube Router`](https://www.kube-router.io/)                              | Level 3       |             | Yes                    |                                     |
+| [`Romana`](https://romana.io/) ([code](https://github.com/romana/romana)) | Level 3       |             | Yes                    |                                     |
+| [`Kopeio`](https://github.com/kopeio/networking)                          | Level 2       | Yes         |                        | Yes                                 |
 
 ### Tools
 

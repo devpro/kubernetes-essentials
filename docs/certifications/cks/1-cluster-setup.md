@@ -50,7 +50,7 @@
 
 * [Aqua: Kubernetes CIS Benchmark Best Practices](https://www.aquasec.com/cloud-native-academy/kubernetes-in-production/kubernetes-cis-benchmark-best-practices-in-brief/)
 * [DevSec Hardening Framework: CIS Kubernetes Benchmark - InSpec Profile](https://github.com/dev-sec/cis-kubernetes-benchmark)
-* [GKE: CIS Benchmarks](https://cloud.google.com/kubernetes-engine/docs/concepts/cis-benchmarks) 
+* [GKE: CIS Benchmarks](https://cloud.google.com/kubernetes-engine/docs/concepts/cis-benchmarks)
 * [Microsoft Compliance: CIS Benchmarks](https://docs.microsoft.com/en-us/microsoft-365/compliance/offering-cis-benchmark)
 
 ## Ingress

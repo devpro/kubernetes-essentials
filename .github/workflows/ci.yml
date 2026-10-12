@@ -1,0 +1,25 @@
+name: CI
+# yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
+# purpose: Continuous Integration pipeline
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch: {}
+
+concurrency:
+  group: "${{ github.ref }}-ci"
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  markup-lint:
+    name: Markup
+    # TODO: change to main when merged
+    uses: devpro/github-workflow-parts/.github/workflows/reusable-markup-lint.yml@8b227f70089f1a71702e282e05c684ed720da78d

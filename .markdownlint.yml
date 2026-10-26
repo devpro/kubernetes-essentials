@@ -1,7 +1,0 @@
-# ref. https://github.com/DavidAnson/markdownlint
-default: true
-MD013:
-  line_length: 350
-  code_blocks: false  # commands and their comments are kept as they are copied
-MD033: false
-MD046: false

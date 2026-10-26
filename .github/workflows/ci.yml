@@ -22,4 +22,4 @@ jobs:
   markup-lint:
     name: Markup
     # TODO: change to main when merged
-    uses: devpro/github-workflow-parts/.github/workflows/reusable-markup-lint.yml@8b227f70089f1a71702e282e05c684ed720da78d
+    uses: devpro/github-workflow-parts/.github/workflows/reusable-markup-lint.yml@591b0c7bfba6fbc7b0cab7d896447e0732b819de

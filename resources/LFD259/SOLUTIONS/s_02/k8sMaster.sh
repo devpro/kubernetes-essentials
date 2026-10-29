@@ -59,15 +59,15 @@ sleep 5
 
 echo "Running the steps explained at the end of the init output for you"
 
-mkdir -p $HOME/.kube
+mkdir -p "$HOME/.kube"
 
 sleep 2
 
-sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+sudo cp -i /etc/kubernetes/admin.conf "$HOME/.kube/config"
 
 sleep 2
 
-sudo chown $(id -u):$(id -g) $HOME/.kube/config
+sudo chown "$(id -u):$(id -g)" "$HOME/.kube/config"
 
 echo "Apply Calico network plugin from ProjectCalico.org"
 echo "If you see an error they may have updated the yaml file"

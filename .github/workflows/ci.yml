@@ -21,4 +21,4 @@ permissions:
 jobs:
   markup-lint:
     name: Markup
-    uses: devpro/github-workflow-parts/.github/workflows/reusable-markup-lint.yml@8c856cd16adc8a0ca01c7889a9c7d98ad8593818
+    uses: devpro/github-workflow-parts/.github/workflows/reusable-markup-lint.yml@5379b9d0052e3b233ec2e56ba8678e827361b89e
